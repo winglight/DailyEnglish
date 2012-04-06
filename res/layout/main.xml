@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:androidsam="http://schemas.android.com/apk/res/net.yihabits.english"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:layout_width="fill_parent"
+			android:id="@+id/top_layout" android:layout_height="50dp"
+			android:gravity="center" android:layout_alignTop="@+id/home_layout">
+			<net.yihabits.english.customview.SegmentButton android:layout_width="wrap_content" 
+				android:id="@+id/sourceSegBtn" android:layout_height="wrap_content"
+				android:gravity="center">
+			</net.yihabits.english.customview.SegmentButton>
+			<ToggleButton android:text="" android:id="@+id/playSelectBtn"
+				android:checked="true" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textOn="@string/playList"
+				android:textOff="@string/playWord"></ToggleButton>
+			<ToggleButton android:text="" android:id="@+id/playAllBtn"
+				android:checked="false" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textOn="@string/playAll"
+				android:textOff="@string/playSingle" android:visibility="gone"></ToggleButton>
+			<LinearLayout android:layout_width="wrap_content" android:layout_weight="1"
+				android:id="@+id/btn_layout" android:layout_height="wrap_content"
+				android:gravity="center" android:layout_alignTop="@+id/home_layout"
+				android:visibility="invisible">
+				<TextView android:text="" android:id="@+id/displayLbl"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+				<Button android:text="" android:id="@+id/playBtn"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:background="@drawable/media_playback_start2"></Button>
+				<Button android:text="" android:id="@+id/stopBtn"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:background="@drawable/media_playback_stop2"></Button>
+			</LinearLayout>
+		</LinearLayout>
+		<ListView android:id="@+android:id/list"
+			android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:transcriptMode="normal" android:stackFromBottom="false"></ListView>
+		<WebView android:text="" android:id="@+id/contentLbl"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"></WebView>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/ad_layout" android:layout_height="wrap_content"
+		android:gravity="bottom" android:layout_alignParentBottom="true"
+		android:layout_alignBottom="@+id/home_layout">
+	</LinearLayout>
+</RelativeLayout>

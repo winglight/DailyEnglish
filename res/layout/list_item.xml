@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is at /res/layout/list_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:background="#FFF" android:gravity="left|center_vertical" android:padding="2dp">
+	<TextView android:id="@+id/row_title" android:layout_width="fill_parent" android:layout_weight="1"
+		android:layout_height="wrap_content" android:textColor="#000"
+		android:textSize="20dp" />
+	<ImageView android:layout_width="wrap_content" android:src="@drawable/badge_tick" android:layout_height="wrap_content" android:id="@+id/icon"></ImageView>
+</LinearLayout>

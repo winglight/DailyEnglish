@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Daily Learning English</string>
+    <string name="mainpage">Main Page</string>
+    <string name="classpage">Category</string>
+    <string name="backMain">I am sure!</string>
+    <string name="quitMain">Quit</string>
+    <string name="aboutTitle">Help</string>
+    <string name="pref_last_page">lastPage</string>
+    <string name="pref_release_show">showRelease1.4</string>
+    <string name="pref_release_note">file:///android_asset/release_1.4.html</string>
+    <string name="playMusic">Play this music</string>
+    <string name="browseFavorite">Favorites</string>
+    <string name="sendEmail">Send E-mail</string>
+    <string name="copyEmailAddr">Copy E-mail Address</string>
+    <string name="startDownload">Starting to download the media...</string>
+    <string name="stopDownload">Finished to download the media...</string>
+    <string name="noMusic">No music playing</string>
+    <string name="playing">Playing music</string>
+    <string name="paused">Paused</string>
+    <string name="play_prompt">Play list</string>
+    <string name="content">Content</string>
+    <string name="playList">News report</string>
+	<string name="playWord">Words list</string>
+	<string name="playSingle">Play Single</string>
+	<string name="playAll">Play All</string>
+	<string name="sureSelect">Please select a report then to view the content.</string>
+	<string name="waitTitle">Update of reports</string>
+	<string name="wait">Still downloading the list of reports, please wait a moment...</string>
+	<string name="noAudio">This report has no available audio file to play.</string>
+	<string name="startUpdateContent">Still downloading the content of the report...</string>
+	<string name="stopUpdateContent">Finished to download the content of the report.</string>
+</resources>

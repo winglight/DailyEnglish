@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">天天学英语</string>
+    <string name="mainpage">主页</string>
+    <string name="classpage">分类</string>
+    <string name="backMain">我确定!</string>
+    <string name="quitMain">退出</string>
+    <string name="aboutTitle">帮助</string>
+    <string name="playMusic">播放这段语音</string>
+    <string name="browseFavorite">收藏</string>
+    <string name="sendEmail">发送 E-mail</string>
+    <string name="startDownload">开始下载媒体...</string>
+    <string name="stopDownload">已下载完媒体...</string>
+    <string name="noMusic">无音乐</string>
+    <string name="playing">正在播放</string>
+    <string name="paused">暂停中</string>
+    <string name="play_prompt">播放列表</string>
+    <string name="content">文本</string>
+    <string name="playList">新闻报道</string>
+	<string name="playWord">单词表</string>
+	<string name="playSingle">播放单个</string>
+	<string name="playAll">播放全部</string>
+	<string name="sureSelect">请先选择新闻报道, 然后再查看内容文本.</string>
+	<string name="waitTitle">更新新闻报道</string>
+	<string name="wait">正在下载新闻报道列表数据，请稍后...</string>
+	<string name="noAudio">这个新闻报道没有可以播放的音频文件...</string>
+	<string name="startUpdateContent">正在下载这篇报道的正文内容...</string>
+	<string name="stopUpdateContent">已下载完这篇报道的正文内容.</string>
+</resources>
